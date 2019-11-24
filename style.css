@@ -7,7 +7,6 @@ body {
 }
 
 /* Navbar CSS start */
-
 #navbar {
   background: #333;
   width: 100%;
@@ -44,8 +43,31 @@ body {
 #nav-list ul li a:hover {
   font-weight: bold;
 }
-
 /* Navbar CSS End */
+
+/* Form container start */
+#form-container {
+  width: 480px;
+  padding: 10px;
+  border: 5px solid #eee;
+  margin: 20px auto;
+}
+#form-container input {
+  padding: 10px;
+  display: block;
+  width: 455px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+#form-container input[type='submit'] {
+  display: block;
+  width: 480px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+/* Form container end */
 
 .float-left {
   float: left;
@@ -53,4 +75,15 @@ body {
 
 .float-right {
   float: right;
+}
+
+.submit-btn {
+  padding: 20px;
+}
+
+.blue-btn {
+  background: #007bff;
+  border: 1px solid #007bff;
+  color: #fff;
+  border-radius: 5px;
 }
