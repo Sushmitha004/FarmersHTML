@@ -69,6 +69,24 @@ body {
 }
 /* Form container end */
 
+/* Table container start */
+#table-container {
+  width: 1000px;
+  margin: 20px auto;
+}
+#table-container table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #333;
+  border-collapse: collapse;
+}
+#table-container table th,
+td {
+  border: 1px solid #333;
+  padding: 10px;
+}
+/* Table container end */
+
 .float-left {
   float: left;
 }
