@@ -6,6 +6,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Navbar CSS start */
+
 #navbar {
   background: #333;
   width: 100%;
@@ -42,6 +44,8 @@ body {
 #nav-list ul li a:hover {
   font-weight: bold;
 }
+
+/* Navbar CSS End */
 
 .float-left {
   float: left;
